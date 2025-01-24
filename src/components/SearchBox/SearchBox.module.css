@@ -1,0 +1,32 @@
+.searchBoxWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBoxLabel{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+gap: 10px;
+ color: #213547;
+    font-size: 17px;
+    font-weight: 500;
+   
+    margin-bottom: 25px;
+}
+.searchBoxInput{
+width: 362px;
+padding: 10px 10px;
+outline: 1.5px solid #213547;
+ border-radius: 5px; 
+  border: transparent; 
+transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+box-shadow: 0 8px 8px 0 rgb(176, 196, 222, 0.35);
+}
+.searchBoxInput:hover,
+.searchBoxInput:focus
+{
+    outline: 1.5px solid #4682B4;
+    
+}

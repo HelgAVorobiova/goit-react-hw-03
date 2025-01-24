@@ -1,0 +1,29 @@
+.contactListItem{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    border: 1px solid #4682B4;
+     border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgb(176, 196, 222, 0.35);
+    padding: 10px;
+
+}
+.contactInfo{
+    text-align: start;
+    
+}
+
+.contactButton{
+background-color:hsl(207, 44%, 49%, 0.25);
+color:#213547 ;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+ background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+;
+}
+
+
+.contactButton:hover,
+.contactButton:focus{
+    background-color:  hsl(207, 44%, 49%, 0.45);
+    border-color: hsl(207, 44%, 49%);
+}
